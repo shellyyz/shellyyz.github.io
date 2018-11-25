@@ -1,0 +1,21 @@
+---
+layout: default
+title: Welcome to Shell's Farm
+---
+<head>
+  <meta name="google-site-verification" content="VskuEu7olJRXV1BQtndBDfyTKHkx13_T6FsB_W7n69k" />
+  <meta name="baidu-site-verification" content="hKSbj7o9VV" />
+</head>
+<h3>{{ page.title }}</h3>
+
+<h4>Latest</h4>
+
+<ul>
+
+    {% for post in site.posts %}
+
+    <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+
+　　　　{% endfor %}
+
+</ul>
