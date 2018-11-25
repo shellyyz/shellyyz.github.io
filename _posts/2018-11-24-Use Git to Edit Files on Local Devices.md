@@ -2,7 +2,7 @@
 layout:     post
 title:      Use Git to Edit Files on Local Devices
 subtitle:   keep updating commands as be more familiar
-date:       2018-11-25
+date:       2018-11-24
 author:     shellyyz
 description: some common commands in Git.
 # header-img: img/post-bg-ios9-web.jpg -->
