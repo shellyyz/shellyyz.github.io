@@ -2,7 +2,7 @@
 layout:     post
 title:      在GitHub Pages中添加数学公式
 subtitle:   GitHub博客中添加于我而言必不可少的公式的方法
-date:       2018-11-24
+date:       2018-11-25
 author:     shellyyz
 description: some common commands in Git.
 # header-img: img/post-bg-ios9-web.jpg -->
