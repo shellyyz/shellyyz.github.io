@@ -11,7 +11,7 @@ tags:
     - Git
     - Commands
 ---
-{% include lib/mathjax.html %}
+{% include lib\mathjax.html %}
 # 在GitHub Pages中添加数学公式
 1. 在根目录下的_config.yml文件中添加
 ```
