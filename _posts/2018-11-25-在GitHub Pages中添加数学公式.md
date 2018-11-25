@@ -12,6 +12,7 @@ tags:
     - Commands
 ---
 # 在GitHub Pages中添加数学公式
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 1. 在根目录下的_config.yml文件中添加
 ```
 markdown: kramdown
