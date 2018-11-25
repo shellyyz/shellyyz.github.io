@@ -11,7 +11,8 @@ tags:
     - Git
     - Commands
 ---
-{% include lib\mathjax.html %}
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 # 在GitHub Pages中添加数学公式
 1. 在根目录下的_config.yml文件中添加
 ```
