@@ -9,7 +9,6 @@ description: some common commands in Git.
 catalog: 	 true
 tags:
     - Git
-    - Commands
 ---
 
 # 在GitHub Pages中添加数学公式
