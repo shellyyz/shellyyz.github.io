@@ -42,7 +42,7 @@ markdown: kramdow
 ```
 {\% include head.html %\}
 ```
-上面故意加了两个\。
+上面故意加了两个\。添加的时候去掉即可。
 
 ----
 
