@@ -11,6 +11,6 @@ tags:
     - Git
     - Commands
 ---
-
+{% include head.html %}
 # Add MathJax into GitHub Pages
 $E = m c^2$
