@@ -13,4 +13,4 @@ tags:
 ---
 
 # Add MathJax into GitHub Pages
-$E = m c^2$$
+$E = m c^2$
