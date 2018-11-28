@@ -23,7 +23,7 @@ markdown: kramdown
 ```
 3. 在需要添加数学公式的文章的front下添加
 ```
-{% include lib/mathjax.html %}
+{% i nclude lib/mathjax.html %}
 ```
 文章中的行内公式用$$公式$$，行间公式用//(公式//)。
 
