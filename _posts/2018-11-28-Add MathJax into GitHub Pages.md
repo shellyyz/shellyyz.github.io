@@ -52,3 +52,5 @@ $$\min_{x} f(x)$$.
 如果公式（包括双$）前后各有一个空行，则产生行间的公式。测试如下：
 
 $$\min_{x} f(x)$$.
+
+可另参考[Jekyll中使用MathJax](http://pkuwwt.github.io/linux/2013-12-03-jekyll-using-mathjax/)。
