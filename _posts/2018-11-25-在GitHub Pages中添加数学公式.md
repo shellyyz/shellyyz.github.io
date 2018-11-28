@@ -7,9 +7,6 @@ author:     shellyyz
 description: some common commands in Git.
 # header-img: img/post-bg-ios9-web.jpg -->
 catalog: 	 true
-tags:
-    - GitHub Pages
-
 ---
 
 # 在GitHub Pages中添加数学公式
