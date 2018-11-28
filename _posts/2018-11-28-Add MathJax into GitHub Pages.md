@@ -40,9 +40,9 @@ markdown: kramdow
 - 在需要添加公式的.md文章中在头文件下添加一句
 
 ```
-{% in clude head.html %}
+{\% include head.html %\}
 ```
-上面故意加了一个空格。
+上面故意加了两个\。
 ----
 下面来看一下效果。
 行间公式换行后无空行：
