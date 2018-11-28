@@ -43,6 +43,7 @@ markdown: kramdow
 {\% include head.html %\}
 ```
 上面故意加了两个\。
+
 ----
 下面来看一下效果。
 行间公式换行后无空行：
