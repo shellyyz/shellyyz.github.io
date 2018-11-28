@@ -43,4 +43,7 @@ markdown: kramdow
 ```
 
 ----
-下面来test一下效果。行间公式\\(\min_{x} f(x)\\),行间公式$$\min_{x} f(x)$$.
+下面来test一下效果。行内公式
+\\(\min_{x} f(x)\\),
+行间公式
+$$\min_{x} f(x)$$.
