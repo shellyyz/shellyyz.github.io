@@ -7,6 +7,7 @@ author:     shellyyz
 description: some common commands in Git.
 # header-img: img/post-bg-ios9-web.jpg -->
 catalog: 	 true
+comments: true
 tags:
     - Git
     - Commands
