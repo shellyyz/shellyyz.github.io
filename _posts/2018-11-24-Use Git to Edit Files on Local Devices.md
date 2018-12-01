@@ -11,6 +11,7 @@ tags:
     - Git
     - Commands
 ---
+
 # Use Git to Edit Files on Local Devices
 Here are some common commands in Git.
 
@@ -22,7 +23,9 @@ git add [file_name]
 git commit -m [file_name]
 git push origin [current_branch]:[branch_to_push]
 ```
+
 ----
+
 ### Edit a file and push it
 If there is a pushed file, after editing the changes is modified but not staged for commit, so we need to perform
 ```
@@ -36,7 +39,9 @@ Finally we can push it by
 ```
 git push
 ```
+
 ----
+
 ### Create a repository
 #### create a new repository
 Create a new directory, open it and perform a
@@ -58,7 +63,9 @@ Open a directory and perform a
 git clone http://your_url
 ```
 to copy a reporsitory on the website.
+
 ----
+
 ### Create/ Switch to/ Merge/ Delete a branch
 #### list branches
 List all the local branches
@@ -100,7 +107,9 @@ First ensure the current branch is not the branch to delete, otherwise switch to
 ```
 git branch -d [branch_name]
 ```
+
 ----
+
 ### Delete files
 If want to delete a pushed file from cache, which means don't want to track it anymore, perform
 ```
