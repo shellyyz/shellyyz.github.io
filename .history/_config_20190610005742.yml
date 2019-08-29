@@ -1,0 +1,20 @@
+theme: jekyll-theme-cayman
+markdown: kramdown
+# Site settings
+title: Shell's Farm                    # 你的博客网站标题
+SEOTitle: Shell's Farm		# SEO 标题
+description: "No matter.  Fail better. "	   	   # 随便说点，描述一下
+header-img: img/winter-house.jpg
+email: yunzhenyao at 126 dot com
+url: "https://shellyyz.github.io"
+
+# Sidebar settings
+sidebar: false                           # 是否开启侧边栏.
+sidebar-about-description: "No matter.  Fail better. "
+sidebar-avatar: /img/sutumn-eggs.JPG
+
+# SNS settings
+github_username: shellyyz     # 你的github账号
+
+# Build settings
+paginate: 20              # 一页你准备放几篇文
