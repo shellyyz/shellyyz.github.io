@@ -33,7 +33,7 @@ tags:
 
 ### 第一个主成分
 
-定义变量 $\boldsymbol{x}$ 的第一个主成分 \(\boldsymbol{u}_1\) 为使得 \(Var(y_{1})\) 最大的方向，其中
+定义变量 $\boldsymbol{x}$ 的第一个主成分 $\boldsymbol{u}_1$ 为使得 $Var(y_{1})$ 最大的方向，其中
 
 $$y_{1}=<\boldsymbol{u}_{1},\boldsymbol{x}> ={\boldsymbol{u}_{1}}^{T}\boldsymbol{x}$$
 
