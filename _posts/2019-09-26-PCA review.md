@@ -14,6 +14,12 @@ tags:
 ---
 {% include head.html %}
 
+- [主成分分析](#%e4%b8%bb%e6%88%90%e5%88%86%e5%88%86%e6%9e%90)
+  - [Statistical PCA](#statistical-pca)
+    - [第一个主成分](#%e7%ac%ac%e4%b8%80%e4%b8%aa%e4%b8%bb%e6%88%90%e5%88%86)
+    - [d个主成分](#d%e4%b8%aa%e4%b8%bb%e6%88%90%e5%88%86)
+    - [Sample PCA](#sample-pca)
+  - [Geometric PCA](#geometric-pca)
 
 # 主成分分析
 
