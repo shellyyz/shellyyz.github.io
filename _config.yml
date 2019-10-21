@@ -1,29 +1,13 @@
-# Permalinks
-permalink:           pretty
+title: Brianne's Farm
+author: Brianne Yao
+description: My Farm
 
-# Setup
-title:               Brianne's Farm
-tagline:             La La La ~
-url:                 http://shellyyz.github.io
-baseurl:             ""
-analytics_id:
+highlighter: null
+permalink: /:title
 
-# Owner/author information
-owner:
-  name:           Brianne Yao
-  avatar:         avatar.png
-  bio:            "Designer."
-  email:          yunzhenyao@126.com
+url: https://shellyyz.github.io/
+baseurl: 
 
-# Custom vars
-version:             2.0.0
-github:
-  repo:
-
-# Pagination
-paginate: 5
-paginate_path: "blog/page:num"
-
-# Gems
-gems:
-  - jekyll-paginate
+# Custom options:
+# color_scheme: azul|ruby|amber|avocado
+# color_scheme: avocado
