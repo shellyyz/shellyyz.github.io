@@ -12,7 +12,7 @@ tags:
     - Git
     - Commands
 ---
-{% include head.html %}
+
 # 在GitHub Pages中添加数学公式
 $$E = m c^2$$
 

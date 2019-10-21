@@ -13,7 +13,7 @@ tags:
     - Commands
 ---
 
-{% include head.html %}
+
 # RNN Captioning (I)
 本文主要是翻译了cs231n第三次assignment的RNN captioning部分,加入了个人的理解.
 
