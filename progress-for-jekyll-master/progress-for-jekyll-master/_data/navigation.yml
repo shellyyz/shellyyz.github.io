@@ -1,8 +1,0 @@
-# external: true to link offsite
-
-- title: Home
-  href: "/"
-- title: About
-  href: "/about"
-- title: Archive
-  href: "/archive"
