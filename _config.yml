@@ -11,3 +11,14 @@ baseurl:
 # Custom options:
 # color_scheme: azul|ruby|amber|avocado
 # color_scheme: avocado
+
+ba_track_id: 
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?88dc9c40a4d2a260dac7b8fbb2e36e64";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
