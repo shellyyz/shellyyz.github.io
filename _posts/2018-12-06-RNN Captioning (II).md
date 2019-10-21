@@ -13,7 +13,7 @@ tags:
     - Commands
 ---
 
-{% include head.html %}
+
 # RNN Captioning (II)
 接上文RNN Captioning (I).
 
