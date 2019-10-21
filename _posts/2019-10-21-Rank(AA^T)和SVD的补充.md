@@ -90,7 +90,7 @@ $$\rm{\mathcal{R}} {(AA^{\top})}=\rm{\mathcal{R}} {(A)}$$
 $A^{\top} \bar{U}$
 是互相垂直的，而又因为
 
-$$\dim{{\mathcal{R}} {(A^{\top})}} = \dim {\mathcal{R}} {(A)}$$
+$$\rm{dim} {{\mathcal{R}} {(A^{\top})}} = \rm{dim} {\mathcal{R}} {(A)}$$
 
 因此 $A^{\top} \bar{U}$ 是 ${\mathcal{R}} {(A^{\top})}$ 的一组互相正交的基，但是模长一般不为1，而是
 $\sqrt{\lambda_{i}}$.
