@@ -3,7 +3,7 @@ layout:     post
 title:      PCA Review
 subtitle:   A Summary of Principle Component Analysis
 date:       2019-09-26
-author:     shellyyz
+author:     Brianne Yao
 # description: some common commands in Git.
 # header-img: img/post-bg-ios9-web.jpg -->
 catalog: 	 true

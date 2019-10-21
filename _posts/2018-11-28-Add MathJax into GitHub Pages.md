@@ -3,7 +3,7 @@ layout:     post
 title:      Add MathJax into GitHub Pages
 subtitle:   在GitHub Pages中添加数学公式
 date:       2018-11-28
-author:     shellyyz
+author:     Brianne Yao
 # description: some common commands in Git.
 # header-img: img/post-bg-ios9-web.jpg -->
 catalog: 	 true

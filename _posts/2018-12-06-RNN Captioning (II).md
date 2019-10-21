@@ -3,7 +3,7 @@ layout:     post
 title:      RNN Captioning (II)
 subtitle:   cs231n assignment 3
 date:       2018-12-06
-author:     shellyyz
+author:     Brianne Yao
 # description: some common commands in Git.
 # header-img: img/post-bg-ios9-web.jpg -->
 catalog: true
@@ -14,7 +14,7 @@ tags:
 ---
 
 {% include head.html %}
-# RNN Captioning (II)
+
 接上文RNN Captioning (I).
 
 ### RNN for image captioning
