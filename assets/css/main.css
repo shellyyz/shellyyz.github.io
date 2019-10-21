@@ -41,13 +41,13 @@ hr,
 }
 
 blockquote {
-  padding: 0 30px;
+  padding: 0 20px;
   border-left: 2px solid #c6c6c6;
 }
 
 ul,
 ol {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 img {
@@ -63,7 +63,7 @@ a {
 
 hr {
   border: 0;
-  height: 25px;
+  height: 20px;
   background: url(/assets/images/eagle.png) center center no-repeat;
 }
 
@@ -96,7 +96,7 @@ th {
 }
 
 .container {
-  max-width: 750px;
+  max-width: 1000px;
   padding: 0 20px;
 }
 
@@ -189,7 +189,7 @@ header > div {
 }
 
 header > nav#main-navigation {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   height: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,7 +245,7 @@ footer {
 ================================================================================
 */
 .archive {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .archive-item {
@@ -317,7 +317,7 @@ footer {
 ================================================================================
 */
 .single {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .single {
