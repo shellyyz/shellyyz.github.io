@@ -12,7 +12,9 @@ tags:
 ---
 {% include head.html %}
 
-最近在上 Subspace Learning 这门课，每周 Quiz, 听课的时候感觉都挺明白的，quiz 的时候两行泪。设 
+最近在上 Subspace Learning 这门课，每周 Quiz, 听课的时候感觉都挺明白的，quiz 的时候两行泪。
+
+设 
 
 $$A\in \mathbb{R}^{m\times n},$$
 
@@ -40,7 +42,7 @@ $$\rm{\mathcal{R}} (AA^{\top}) \subseteq \rm{\mathcal{R}} (A).$$
 
 $$\rm{rank} (AA^{\top}) = \rm{rank} (A)$$
 
-即可。由于 ( $\odot$ 表示 orthogonal 的 direct sum ) 
+即可。由于 ( $\odot$ 表示两两 orthogonal 的 direct sum ) 
 
 $$\rm{\mathcal{R}} (AA^{\top}) \odot \rm{\mathcal{N}} (AA^{\top}) = \rm{\mathcal{R}} (A)  \odot \rm{\mathcal{N}} (A^{\top}) = \mathbb{R}^{m},$$
 
@@ -98,11 +100,11 @@ $\sqrt{\lambda_{i}}$.
 * 证明：
   
   $$ \forall i\ne j, \; (A^{\top} u_{i})^{\top} (A^{\top} u_{j}) = u_{i} AA^{\top} u_{j} = u_{i}^{\top} U \Lambda U^{\top}  u_{j} = 0;\\
-  \rm{otherwise} \; \; (A^{\top} u_{i})^{\top} (A^{\top} u_{i}) = \lambda_{i}.
+  \rm{otherwise} \; \; (A^{\top} u_{i})^{\top} (A^{\top} u_{i}) = \lambda_{i}. \; \blacksquare
   $$
 
 
-因此我们得到了 ${\mathcal{R}} {(A^{\top})}$ 的一组orthonormal basis:
+将之二范数进行 normalize, 我们得到了 ${\mathcal{R}} {(A^{\top})}$ 的一组orthonormal basis:
 
 $$ \bar{V}=\left[\frac{A^{\top} u_{1}}{||A^{\top} u_{1}||_2}, ..., \frac{A^{\top} u_{r}}{||A^{\top} u_{r}||_2}\right] = A^{\top} \bar{U} \; |\bar{\Lambda}|^{-1/2} = A^{\top} \bar{U} \bar{\Sigma}^{-1}$$
 
@@ -115,6 +117,6 @@ $$\bar{V} \bar{\Sigma}= A^{\top} \bar{U}$$
 $$\bar{U}^{\top} A = \bar{\Sigma} \bar{V}^{\top}$$
 
 而对于特征值为0的部分，只需要分别求出 $\bar{U}$ 和
-$\bar{V}$ 的 orthocomplementary basis 就可以了。
+$\bar{V}$ 的 orthocomplementary basis 就可以了，这部分它们之间的对应关系由于奇异值为0而非常自由。
 
 
