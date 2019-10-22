@@ -95,7 +95,7 @@ $A^{\top} \bar{U}$
 $$\rm{dim} {\mathcal{R}} {(A^{\top})} = \rm{dim} {\mathcal{R}} {(A)}$$
 
 因此 $A^{\top} \bar{U}$ 是 ${\mathcal{R}} {(A^{\top})}$ 的一组互相正交的基，但是模长一般不为1，而是
-$\sqrt{\lambda_{i}}$.
+$\sqrt{|\lambda_{i}|}$.
 
 * 证明：
   
