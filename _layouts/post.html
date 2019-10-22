@@ -8,3 +8,23 @@ layout: default
 
   {{ content }}
 </article>
+
+<!-- Gitalk 评论 start  -->
+
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+    // gitalk的主要参数
+		clientID: `7e5cc8a542758ac9e6d2`,
+		clientSecret: `ec1ced4d120b409c4286c4c7422f6d339f05d3f0`,
+		repo: `shellyyz.github.io`,
+		owner: 'shellyyz',
+		admin: ['shellyyz'],
+
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->
