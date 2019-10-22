@@ -23,7 +23,8 @@ layout: default
 		repo: `shellyyz.github.io`,
 		owner: 'shellyyz',
 		admin: ['shellyyz'],
-
+		id: '{{ page.url | truncate: 50, '' }}',
+    
     });
     gitalk.render('gitalk-container');
 </script> 
