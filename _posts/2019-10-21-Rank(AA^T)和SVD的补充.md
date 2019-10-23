@@ -2,8 +2,6 @@
 layout:     post
 title:      R(AA^T)和SVD的补充
 author:     Brianne Yao
-# description: some common commands in Git.
-# header-img: img/post-bg-ios9-web.jpg -->
 catalog: 	 true
 comments: true
 tags:
