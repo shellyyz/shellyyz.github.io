@@ -61,6 +61,8 @@ Apply all safe tranformation --> Look at the table --> Done?
 
 由于安全方法转化没有风险，而策略方法转化可能有风险，因此每一次转化后我们总是先检查是否可以直接由安全方法解决该问题。这样，就形成了下面的循环。
 
+![AI2graph1.PNG](https://i.loli.net/2019/10/30/9KxTvW7QpUojbfB.png)
+
 
 #### Reflection
 
