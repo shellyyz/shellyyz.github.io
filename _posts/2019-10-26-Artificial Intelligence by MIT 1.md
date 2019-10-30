@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Artificial Intelligence by MIT 1.01
+title:      Artificial Intelligence by MIT 1
 author:     Brianne Yao
 catalog: 	 true
 comments: true
