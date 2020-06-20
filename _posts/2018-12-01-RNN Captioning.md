@@ -9,8 +9,8 @@ author:     Brianne Yao
 catalog: true
 comments: true
 tags:
-    - Git
-    - Commands
+    - Deep Learning
+    - RNN
 ---
 
 {% include head.html %}
