@@ -4,8 +4,8 @@ title: Home
 ---
 
 <section class="archive">
-{% for post in site.personal %}
-{% unless post.next %}
+{% for personal in site.personal %}
+{% unless personal.next %}
 
   {% unless forloop.first %}
     </div>
@@ -13,13 +13,13 @@ title: Home
   {% endunless %}
 
   <div class="archive-item fadeInDown animated">
-    <h2>{{ post.date | date: '%Y' }}</h2>
+    <h2>{{ personal.date | date: '%Y' }}</h2>
     <div>
 
 {% else %}
 
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture next_year %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+{% capture year %}{{ personal.date | date: '%Y' }}{% endcapture %}
+{% capture next_year %}{{ personal.next.date | date: '%Y' }}{% endcapture %}
 
 {% if year != next_year %}
 
@@ -29,16 +29,16 @@ title: Home
   {% endunless %}
 
   <div class="archive-item fadeInDown animated">
-    <h2>{{ post.date | date: '%Y' }}</h2>
+    <h2>{{ personal.date | date: '%Y' }}</h2>
     <div>
 
 {% endif %}
 {% endunless %}
 
   <article>
-    <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title }}</a>
-    <div class="post-date">
-      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>
+    <a href="{{ personal.url | absolute_url }}" title="{{ personal.title }}">{{ personal.title }}</a>
+    <div class="personal-date">
+      <time datetime="{{ personal.date | date: '%Y-%m-%d' }}">{{ personal.date | date: "%-d %B" }}</time>
     </div>
   </article>
 
