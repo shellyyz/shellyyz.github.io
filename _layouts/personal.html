@@ -10,12 +10,4 @@ layout: default
 </article>
 
 
-<div id="related">
-  <h2>Recent Posts</h2>
-  <ul class="posts">
-    {% for personal in site.related_personal limit:3 %}
-      <li><span>{{ personal.date | date_to_string }}</span> &raquo; <a href="{{ personal.url }}">{{ personal.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
 

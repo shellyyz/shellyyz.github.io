@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Personal
 ---
 
 <section class="archive">
