@@ -9,4 +9,4 @@ title: About
 
 欢迎联系：journeyyz at gmail dot com
 
-Something Personal:  [Brianne's Personal Farm](./Brianne.md)
+Something Personal:  <a href="./Brianne.md" target="_blank">My Personal Farm</a>

@@ -4,7 +4,7 @@ title: Home
 ---
 
 <section class="archive">
-{% for post in site.personal %}
+{% for personal in site.personal %}
 {% unless personal.next %}
 
   {% unless forloop.first %}
