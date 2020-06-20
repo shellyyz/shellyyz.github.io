@@ -4,9 +4,9 @@ title: About
 ---
 
 这里是 Brianne 的自由农场，
-记录一些怕被遗忘、或者琐碎平常的事情。
+记录一些最近正在看的书或者笔记。
 
 
-欢迎联系：journeyyz@@gmail.com
+欢迎联系：journeyyz at gmail dot com
 
-发邮件时请去掉上面多余的一个@.
+Something Personal:  [Brianne's Personal Farm](./Brianne.md)
