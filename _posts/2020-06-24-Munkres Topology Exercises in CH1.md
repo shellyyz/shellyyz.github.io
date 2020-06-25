@@ -18,7 +18,7 @@ tags:
 
 ​	*Proof.*  Injective: Suppose there are $a_1,a_2 \in A$ such that $f(a_1)=f(a_2)$, then $f(a_1),f(a_2)\in B$. By assumption we have $g(f(a_{1})) = g(f(a_{2})) = a_1 = a_2$.   Surjective: $\forall b \in B \; \exists h(b)\in A$ such that  $f(h(b))=b$ . Similarly we can prove $g$ and $h$ are bijective. Let $f(a)=b$. Then $g(b)=a,\forall b.$ Thus $g=f^{-1}$. Similarly we can show $f=g^{-1}$. 
 
-**Definition for preimage.** $B_{0} \subset B.$ $f^{-1}(B_0) = \{a| f(a) \in B_0 \}$.
+**Definition for preimage.** $B_{0} \subset B.$ $f^{-1}(B_0) = \{a | f(a) \in B_0 \}$.
 
 **Exercise on Page 20.** 
 
@@ -70,7 +70,6 @@ tags:
 
     If $b\in f(A_0- A_1) = \{b| b=f(a) , \exists a \in A_0-A_1\}$. Thus $a\in A_0$ but $a  \notin A_1$.  $\forall a_1\in A_1$, $f(a_1)\ne f(a)=b$ by injective assumption. Thus $b\notin f(A_1)$.  Thus $b\in f(A_0)-f(A_1)$. Hence $f(A_0- A_1) \subset f(A_0)- f(A_1)$.
 
-     
 
 3. Show that (b), (c), (f), and (g) of Exercise 2 hold for arbitrary unions and intersections. 
 
