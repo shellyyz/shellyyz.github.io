@@ -1,179 +1,57 @@
 ---
-layout: post
-title: '拓扑学札记'
-author: 'Brianne Yao'
-catalog: true
+layout:     post
+title:      Add MathJax into GitHub Pages
+subtitle:   在GitHub Pages中添加数学公式
+date:       2018-11-28
+author:     Brianne Yao
+# description: some common commands in Git.
+# header-img: img/post-bg-ios9-web.jpg -->
+catalog: 	 true
 comments: true
 tags:
-    - Topology
-    - Notes
----  
-
-
+    - Git
+    - Commands
+---
 {% include head.html %}
+# 在GitHub Pages中添加数学公式
+$$E = m c^2$$
 
+- 首先在根目录中的_config.yml文件添加
 
-作为一门数学基础课，拓扑学涵盖了一些重要的数学思想。比方说第一次课教授讲 equivalence 关系时就提到的，classification 是数学的一个重要问题。按照不同的尺度标准进行分类，可以对某个对象的特征有更加深入的理解。
-比如集合如果按照 bijection 这个等价关系分类的话特征就是集合的cardinality. 
+```
+markdown: kramdow
+```
 
-这学期开学一个月了，此札记用来记录一下这门课琐碎的知识点和一些有趣的见闻。
+- 然后在根目录中新建_includes文件夹（注意有s），在_includes中新建head.html文件。内写MathJax官方的文档：
 
-### 等价关系 Equavalence relation
+```
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+```
 
-An equivalence relation is a binary relation that is reflexive, symmetric and transitive. The relation "is equal to" is the canonical example of an equivalence relation, where for any objects a, b, and c:
+- 在需要添加公式的.md文章中在头文件下添加一句
 
- - a = a (reflexive property),
- - if a = b then b = a (symmetric property), and
- - if a = b and b = c, then a = c (transitive property).
+```
+{\% include head.html %\}
+```
+上面故意加了两个\。添加的时候去掉即可。
 
-Any equivalence relation provides a partition of the underlying set into disjoint equivalence classes. Two elements of the given set are equivalent to each other, if and only if they belong to the same equivalence class.
+----
 
+下面来看一下效果。
+行间公式换行后无空行：
+$$\min_{x} f(x)$$.
+如果公式（包括双$）前后各有一个空行，则产生行间的公式。测试如下：
 
-### 选择公理 Axiom of Choice
+$$\min_{x} f(x)$$.
 
-$\mathcal{A} = \{A_{y}, y\in Y\}$ 
-is a family of sets. 
-Then there exists a function 
-$h: Y \to \bigcup_{y\in Y} A_{y}$
- such that 
-$h(y)\in A_{y}$
-. 
-
-哥德尔 Godel 证明了选择公理（Axiom of Choice, AC）是 independent 于 ZF(Zermelo–Fraenkel) 公理系统的。一般情况下人们都认为AC是成立的，也就是ZFC = ZF + AC系统。
-
-哥德尔还证明了一些哲学问题，比如：
- - 一个公理系统的 consistency 是无法在系统内证明的。
- - 任何一个公理系统要么不是 self-consistent 的，要么存在一个不可被证明的正确的命题。（哥德尔不完备定理 incompleteness）
-
-
-### 实数不属于自然数等价类 / 实数不可数
-
-康托 Cantor 用对角线论证 diagonal arument 证明了这个定理。
-将一个实数分为整数部分和小数部分。对于小数部分列一个表，横轴是第$i$位小数，纵轴是0到9的自然数
-$a_{i}\in\{0, 1, 2, \cdots, 9\}$
-，假设 
-$b=0. b_{0} b_{1} b_{2} ...$ 
-选择 
-$b_{i}\ne a_{ii}, i\in \mathbb{N}$
-. 那么
-$b \ne a_j, \forall j\in\mathbb{N}$
-.
-
-Corollary: There are uncountably many transcendental numbers. 
-
-我感觉这里就是说，一个实数没办法用自然数数出来。
-比如一个整数可以直接数出来，有理数也是一样，有理数 p/q 按照某种数数的方法就可以是 第 pq 个自然数。
-
-### 实函数连续的开区间条件和epsilon-delta条件等价
-
-$f: \mathbb{R} \to \mathbb{R}$
- is continuous if and only if 
-for any open set 
-$O\subset \mathbb{R}$
-, 
-$f^{-1}(O)$
- is open. 
-
-Proof. 
-Assume 
-$f$
- is 
-$\epsilon-\delta$
- continuous. Let 
-$O=(a,b)$
- be open. We need to show that 
-$f^{-1}(O)$
- is open, which is equivalent to show that 
-$\forall x\in f^{-1}((a, b))$
-there is an open interval 
-$(a_{x}, b_{x})$
- inside 
-$f^{-1}((a,b))$
- containing 
-$x.$ 
-
-By assumption, 
-$\forall \epsilon >0, \exists \delta >0$
- such that if 
-$|x-x_{0}|<\delta$
- then 
-$|f(x)-y_{0}|<\epsilon.$ 
-Hence 
-$\forall \epsilon >0, \exists \delta >0$
- such that 
-$f((x_{0}-\delta, x_{0}+\delta)) \subset (y_{0}-\epsilon, y_{0}+\epsilon).$
-
-Since 
-$x\in f^{-1}((a,b)),$ 
-there is 
-$y\in (a, b)$
- such that 
-$f(y) = x.$
- Since 
-$(a,b)$
- is open, there is 
-$\epsilon>0$
- such that 
-$(y-\epsilon, y+\epsilon) \subseteq (a, b).$
-Then there exists 
-$\delta>0$
-such that 
-$f((x-\delta, x+\delta))\subset (y-\epsilon, y+\epsilon)\subset (a, b).$
-Hence 
-$(x-\delta, x+\delta)$
- is open and contained in 
-$(a, b).$
-
-The other direction is obvious. 
-
-### 从实数域到一般域
-
-拓扑中开集的概念（三个性质）实际上是实数上开区间的拓展。
-有限个开区间的并仍然是开区间。无限个就未必了，比如 
-$\bigcap_{n=1}^{\infty} (-\frac{1}{n}, \frac{1}{m}) = \{0\}.$
-
-由此我们就有了拓扑的定义，是一个集合
-$X$
-和
-$X$
-的幂集
-$\mathcal{P}(X)$
-的一个子集
-$\mathcal{O}$
-，且
-$\mathcal{O}$
-中的元素（是
-$X$
-的子集）满足三条性质。
-
-拓扑举例：
- - trivial topology: 
-$\mathcal{O}= \\{ \emptyset, X \\} .$ 
- - discrete topology: 
-$\mathcal{O}=\mathcal{P}(X).$ 
- - finite-component topology: 
-$\mathcal{O}= \\{ U\in \mathcal{P}|X-U \;\text{is a finite set} \\} \cup \emptyset.$ 
-
-### 集合的内点、外点、与边界点
-
-对于集合X的一个划分，按照其子集A的内外边进行划分。
-
-Let 
-$(X, \mathcal{O})$
- be a topology space, 
-$A\subset X$, $x\in X.$ 
- - int(A) 中的$x$: 
-$\exists O\subset X, x\in O$ and $O\subset A.$
- - ext(A) 中的$x$: 
-$\exists O\subset X, x\in O$ and $O\subset X-A.$
- - A的 boundary 中的
-$x$
- (亦记作
-$\partial A$
- ): 
-$\forall O$
- open with 
-$x\in O,$
-$O\cap A \ne \emptyset,$
- and 
-$O\cap A^{c} = \emptyset.$ 
+可另参考[Jekyll中使用MathJax](http://pkuwwt.github.io/linux/2013-12-03-jekyll-using-mathjax/)。
