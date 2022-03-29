@@ -9,4 +9,4 @@ title: About
 
 欢迎联系：journeyyz at gmail dot com
 
-Something Personal:  <a href="./personal_index.md" target="_blank">My Personal Farm</a> (Not post yet)
+Something Personal:  <a href="https://sites.google.com/view/farm-records" target="_blank">My Personal Farm</a> 
