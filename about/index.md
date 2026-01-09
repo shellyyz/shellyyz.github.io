@@ -9,4 +9,6 @@ title: About
 
 欢迎联系：journeyyz at gmail dot com
 
-Something Personal:  <a href="https://sites.google.com/view/farm-records" target="_blank">My Personal Farm</a> 
+
+Update:
+<a href="https://implicitvalue.github.io" target="_blank">My Personal Webpage</a> 
