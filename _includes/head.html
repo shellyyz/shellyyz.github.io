@@ -11,6 +11,16 @@
 <!-- title -->
 <title>{% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.title }}</title>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E1VRSWZZX2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E1VRSWZZX2');
+</script>
+
 <!-- icons -->
 <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
 
